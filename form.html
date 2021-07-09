@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+    <link rel="stylesheet" href="./styles/navStyle.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./form.html">Form</a></li>
+                <li><a href="./media.html">Media</a></li>
+                <li><a href="./table.html">Table</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <form action="" method="post">
+            <fieldset>
+                <legend>Pitha Utshob</legend>
+                <p>
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name">
+                </p>
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email">
+                </p>
+            </fieldset>
+            <br><br>
+            <fieldset>
+                <legend>Pitha Selection</legend>
+                <p>            
+                    <input type="radio" name="pitha" id="vapa">
+                    <label for="vapa">Vapa Pitha</label>
+                </p>
+                <p>                   
+                    <input type="radio" name="pitha" id="chitoi">
+                    <label for="chitoi">Chitoi Pitha</label>
+                </p>
+                <p>                    
+                    <input type="radio" name="pitha" id="puli">
+                    <label for="puli">Puli Pitha</label>
+                </p>
+            </fieldset>
+            <br><br>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Start Reviewing.."></textarea>
+            <br><br>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+    </section>
+</body>
+
+</html>

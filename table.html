@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table</title>
+    <link rel="stylesheet" href="./styles/navStyle.css">
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 10px 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./form.html">Form</a></li>
+                <li><a href="./media.html">Media</a></li>
+                <li><a href="./table.html">Table</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Company</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Bill Gates</td>
+                <td>Microsoft</td>
+                <td>$1000</td>
+            </tr>
+            <tr>
+                <td>Lary Page</td>
+                <td>Google</td>
+                <td>$1200</td>
+            </tr>
+            <tr>
+                <td>Mark Zuckerberg</td>
+                <td>Facebook</td>
+                <td>$1400</td>
+            </tr>
+        </tbody>
+    </table>
+    <h3>Table-2</h3>
+    <table>
+        <caption>Learning HTML Table(caption tag)</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th colspan="2">Contact</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Fahim</td>
+                <td>1234</td>
+                <td>5678</td>
+            </tr>
+            <tr>
+                <td>Shahriar</td>
+                <td>1234</td>
+                <td>5678</td>
+            </tr>
+            <tr>
+                <td>Sheikh</td>
+                <td colspan="2">1234</td>
+            </tr>
+            <tr rowspan="2">
+                <td rowspan="2">SK</td>
+                <td>1234</td>
+                <td>5678</td>
+            </tr>
+            <tr>
+                <td>5678</td>
+                <td>5678</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
